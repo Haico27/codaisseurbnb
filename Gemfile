@@ -80,3 +80,6 @@ gem 'rails_12factor', group: :production
 
 # image upload
 gem 'carrierwave'
+
+# cloudinary
+gem 'cloudinary'
