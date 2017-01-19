@@ -79,7 +79,7 @@ ruby '2.3.1'
 gem 'rails_12factor', group: :production
 
 # image upload
-gem 'carrierwave'
+gem 'carrierwave', '0.11.2'
 
 # cloudinary
-gem 'cloudinary'
+gem 'cloudinary', '1.2.3'
