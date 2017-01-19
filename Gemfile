@@ -68,3 +68,15 @@ gem 'sass-rails', '>= 3.2'
 
 #Devise
 gem 'devise'
+
+# Ruby version
+source 'https://rubygems.org'
+
+ruby '2.3.1'
+
+
+# Gem for production
+gem 'rails_12factor', group: :production
+
+# image upload
+gem 'carrierwave'
