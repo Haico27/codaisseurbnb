@@ -59,3 +59,6 @@ pour-over, kale chips pitchfork. Readymade snackwave man bun, photo booth tilde 
 address: "Tottenham Court Road 14, W1T 1JY London (UK)", has_tv: false, has_kitchen: true,
 has_airco: false, has_heating: false, has_internet: true, price: 100, active: true, user: matt,
 themes: [elegant_and_ornate, white_washed], photos: [photo7, photo8, photo9])
+
+Booking.create(room: room1, user: wouter, price: 50, total: 100, starts_at: 10.days.from_now, ends_at: 12.days.from_now)
+Booking.create(room: room1, user: matt, price: 50, total: 200, starts_at: 20.days.from_now, ends_at: 24.days.from_now)
